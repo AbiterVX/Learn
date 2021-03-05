@@ -4,6 +4,12 @@
 
 forward shading 与defered shading 优劣
 
+
+
+
+
+https://zhuanlan.zhihu.com/p/137780634
+
 ## 2.PBR算法
 
 ## 3.光照实现
