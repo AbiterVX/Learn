@@ -6,7 +6,7 @@ forward shading 与defered shading 优劣
 
 
 
-
+https://zhuanlan.zhihu.com/p/79183044
 
 https://zhuanlan.zhihu.com/p/137780634
 
@@ -17,6 +17,8 @@ https://zhuanlan.zhihu.com/p/137780634
 ## 4.像素着色器，
 
 ## 5.透明物体需要注意什么
+
+渲染顺序
 
 ## 6.四叉树八叉树
 
@@ -221,6 +223,10 @@ Shadowmap
 纹理填充率对性能的影响
 
 drawcall的概念；底层上怎么减少drawcall；
+
+https://zhuanlan.zhihu.com/p/304727816
+
+
 
 法线贴图
 
