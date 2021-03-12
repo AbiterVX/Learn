@@ -10,6 +10,10 @@ https://zhuanlan.zhihu.com/p/79183044
 
 https://zhuanlan.zhihu.com/p/137780634
 
+
+
+https://zhuanlan.zhihu.com/p/61949898
+
 ## 2.PBR算法
 
 ## 3.光照实现
