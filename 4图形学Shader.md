@@ -30,9 +30,29 @@ https://zhuanlan.zhihu.com/p/61949898
 
 遮挡剔除详细
 
+延迟渲染的过程，GBuffer，相比前向渲染的优势和劣势
+
+延迟渲染和前向渲染的区别，时间复杂度的比较
+
+## 8.深度测试/模版测试/透明度测试先后顺序
+
+https://www.zhihu.com/question/384124671
 
 
 
+## 9.MipMap贴图
+
+## 10.高斯模糊的优化方式
+
+
+
+## 11.异面直线距离
+
+https://blog.csdn.net/songyunli1111/article/details/101560782
+
+## 12点乘和叉乘在渲染管线的应用
+
+（叉乘：判断点是否在三角形内）
 
 # UE4
 
