@@ -1,5 +1,7 @@
 # ----图形学
 
+
+
 ## 1.渲染管线
 
 forward shading 与defered shading 优劣
@@ -13,6 +15,30 @@ https://zhuanlan.zhihu.com/p/137780634
 
 
 https://zhuanlan.zhihu.com/p/61949898
+
+
+
+
+
+顶点Shader
+
+镶嵌
+
+几何Shader 
+
+裁剪
+
+栅格化
+
+片元Shader
+
+色彩融合
+
+像素Shader
+
+
+
+
 
 ## 2.PBR算法
 
@@ -58,6 +84,10 @@ https://blog.csdn.net/songyunli1111/article/details/101560782
 
 （叉乘：判断点是否在三角形内）
 
+## 13.光线追踪
+
+https://zhuanlan.zhihu.com/p/41269520
+
 # UE4
 
 UE4的反射系统
@@ -97,6 +127,26 @@ UE4的Gameplay框架
 actor、pawn、character的区别
 
 # ----图形学基础知识点
+
+法向量变换：正交变换可行。
+
+![image-20210328094443192](4图形学Shader.assets/image-20210328094443192.png)
+
+![image-20210328094220504](4图形学Shader.assets/image-20210328094220504.png)
+
+
+
+层次建模，矩阵栈
+
+正向运动学，逆向运动学
+
+三维旋转：Euler角，四元数
+
+质点/粒子系统。常微分方程
+
+
+
+
 
 布林冯模型 
 
