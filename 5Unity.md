@@ -26,12 +26,6 @@ OnDisable：对象变为不可用或非激活状态时调用
 
 OnDestroy：MonoBehavior被销毁时调用
 
-## 4.光源
-
-## 5.
-
-
-
 # UGUI
 
 ### 1.Pivot
@@ -70,13 +64,7 @@ OnDestroy：MonoBehavior被销毁时调用
 
 触屏接收器
 
-
-
-
-
-
-
-
+### 6.后处理
 
 # ----C#
 
@@ -98,4 +86,4 @@ OnDestroy：MonoBehavior被销毁时调用
 
 ### 5.协程
 
-### 6.后处理
+### 
