@@ -134,6 +134,12 @@ Hull Shader：将控制点信息发往Domain Shader，同时也会给Tessellator
 
 延迟渲染和前向渲染的区别，时间复杂度的比较
 
+
+
+https://zhuanlan.zhihu.com/p/111314574
+
+https://zhuanlan.zhihu.com/p/102134614
+
 ## 8.深度测试/模版测试/透明度测试先后顺序
 
 https://www.zhihu.com/question/384124671
@@ -210,7 +216,9 @@ https://zhuanlan.zhihu.com/p/41269520
 
 
 
+## 14.Phong光照
 
+https://zhuanlan.zhihu.com/p/144331612
 
 
 
