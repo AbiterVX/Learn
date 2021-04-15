@@ -220,7 +220,11 @@ https://zhuanlan.zhihu.com/p/41269520
 
 https://zhuanlan.zhihu.com/p/144331612
 
+## 15.场景剔除
 
+可见剔除(距离剔除、视锥体剔除)
+
+遮挡剔除(遮挡查询、Early Z)
 
 
 
