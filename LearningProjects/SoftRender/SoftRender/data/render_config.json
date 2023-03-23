@@ -1,0 +1,99 @@
+{
+  "viewport":{
+    "width": 800,
+    "height": 450
+  },
+
+  "scene":{
+    "camera":{
+      "type": "perspective",
+      "location": [-1.2, 0, 0.8],
+      "lookat_target": [0, 0, 0],  
+      "z_near": 0.1,
+      "z_far": 20.0,
+      "fov_y_degree": 90
+    },
+    
+    "camera-":{
+      "type": "orthographic",
+      "location": [-1, 0, 0],
+      "lookat_target": [0, 0, 0],
+      "left": -2.0,
+      "right": 2.0,
+      "bottom": -1.125,
+      "top": 1.125,
+      "z_near": 0.1,
+      "z_far": 20.0
+    },
+
+
+    "light":{
+      "main_light":{
+        "type": "point",
+        "location": [-1.2, 0, 0.8],
+        "color": [1.0, 1.0, 1.0]
+      },
+      "main_light_2":{
+        "type": "point",
+        "location": [0, 0, 0],
+        "color": [0.3, 0.3, 0.3]
+      }
+    },
+
+    "mesh":{
+      "box":{
+        "type": "obj",
+        "path": "data/mesh/box2.obj",
+        
+        "material": "mat_box",
+        "location": [0, 0.8, 0],
+        "rotation": [0, 0, 0],
+        "scale": [0.8, 0.8, 0.8]
+      },
+      "steve":{
+        "type": "obj",
+        "path": "data/mesh/steve.obj",
+        
+        "material": "mat_steve",
+        "location": [0, -0.8, 0],
+        "rotation": [90, 0, 0],
+        "scale": [0.2, 0.2, 0.2]
+      },
+      "floor1":{
+        "type": "obj",
+        "path": "data/mesh/box.obj",
+        "location": [0.5, 0, -1.0],
+        "rotation": [0, 0, 0],
+        "scale": [1, 2, 2]
+      }    
+    },
+
+    "mesh_temp":{
+      
+    },
+
+
+    "material":{
+      "mat_steve":{
+        "type": "phong",
+        "texture_path": "data/mesh/char.bmp",
+        "diffuse_color": [1.0, 1.0, 1.0],
+        "specular_color": [2.0, 2.0, 2.0],
+        "shininess": 25,
+        "ambient_light":[0.2, 0.2, 0.2]
+      },
+      "mat_box":{
+        "type": "texture_bilinear",
+        "texture_path": "data/mesh/cell2.bmp"
+      },
+      "mat_box_phong":{
+        "type": "phong",
+        "texture_path": "data/mesh/cell2.bmp",
+        "diffuse_color": [1.0, 1.0, 1.0],
+        "specular_color": [1.0, 1.0, 1.0],
+        "shininess": 25,
+        "ambient_light":[0.2, 0.2, 0.2]
+      }
+    }
+  }
+}
